@@ -1,0 +1,6 @@
+@value primary from "./shared/colors.css";
+
+.header {
+  background: primary;
+  height: 350px;
+}

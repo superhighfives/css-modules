@@ -20,7 +20,7 @@ module.exports = {
   },
   postcss: [
     require('autoprefixer'),
-    require('postcss-custom-properties'),
+    require('postcss-modules-values'),
     require('postcss-nested')
   ]
 }

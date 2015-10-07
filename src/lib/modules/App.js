@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import styles from './styles/app.css'
 
+import Header from './Header'
+import Logo from './Logo'
+
 export default class App extends Component {
   constructor() {
     super()
@@ -8,9 +11,9 @@ export default class App extends Component {
   }
 
   render() {
-    return
-    <div>
-      <h1>CSS Modules</h1>
+    return <div className={styles.app}>
+      <Header />
+      <Logo />
     </div>
   }
 }
