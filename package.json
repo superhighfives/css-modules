@@ -29,6 +29,6 @@
     "postcss-modules-values": "^1.0.0"
   },
   "dependencies": {
-    "react": "^0.13.0"
+    "react": "^16.13.1"
   }
 }
